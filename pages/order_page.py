@@ -1,12 +1,11 @@
 from selenium.webdriver.support.wait import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 from locators import order_page_locators
-from locators import base_page_locators
-from locators import main_page_locators
+from pages.base_page import BasePage
 from data import urls
 import allure
 
-class OrderPage:
+class OrderPage(BasePage):
 
     def __init__(self, driver):
         self.driver = driver

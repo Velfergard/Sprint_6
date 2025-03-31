@@ -26,3 +26,8 @@ ORDER_BUTTON_ROADMAP = [By.XPATH, '//div[contains(@class, "RoadMap")]//button[te
 
 # Локатор для картинки самоката
 SCOOTER_IMG = [By.XPATH, '//img[contains(@alt, "blueprint")]']  # Картинка с примером самоката
+
+# Локаторы для элементов в хэдере страницы
+YANDEX_LOGO = [By.XPATH, '//a[contains(@class, "Yandex")]']  # Логотип "Яндекс"
+SCOOTER_LOGO = [By.XPATH, '//a[contains(@class, "Scooter")]']  # Логотип "Самокат"
+ORDER_BUTTON_HEADER = [By.XPATH, '//div[contains(@class, "Nav")]/button[text() = "Заказать"]']  # Кнопка "Заказать" в хэдере страницы

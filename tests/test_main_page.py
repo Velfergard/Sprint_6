@@ -1,5 +1,4 @@
 from pages.main_page import MainPage
-from pages.base_page import BasePage
 from selenium import webdriver
 from data import urls
 import allure
@@ -12,9 +11,8 @@ class TestMainPage:
                         "На главной странице 'Самоката' ищем блок 'Вопросы о важном' и нажимаем на вопрос.")
     def test_question_one_answer(self, driver):
         main_page = MainPage(driver)
-        base_page = BasePage(driver)
 
-        base_page.go_to_site(urls.scooter_url)
+        main_page.go_to_site(urls.scooter_url)
         main_page.scroll_page_to_questions_section()
         main_page.check_question_one_answer()
 
@@ -23,9 +21,8 @@ class TestMainPage:
                         "На главной странице 'Самоката' ищем блок 'Вопросы о важном' и нажимаем на вопрос.")
     def test_question_two_answer(self, driver):
         main_page = MainPage(driver)
-        base_page = BasePage(driver)
 
-        base_page.go_to_site(urls.scooter_url)
+        main_page.go_to_site(urls.scooter_url)
         main_page.scroll_page_to_questions_section()
         main_page.check_question_two_answer()
 
@@ -34,9 +31,8 @@ class TestMainPage:
                         "На главной странице 'Самоката' ищем блок 'Вопросы о важном' и нажимаем на вопрос.")
     def test_question_three_answer(self, driver):
         main_page = MainPage(driver)
-        base_page = BasePage(driver)
 
-        base_page.go_to_site(urls.scooter_url)
+        main_page.go_to_site(urls.scooter_url)
         main_page.scroll_page_to_questions_section()
         main_page.check_question_three_answer()
 
@@ -45,9 +41,8 @@ class TestMainPage:
                         "На главной странице 'Самоката' ищем блок 'Вопросы о важном' и нажимаем на вопрос.")
     def test_question_four_answer(self, driver):
         main_page = MainPage(driver)
-        base_page = BasePage(driver)
 
-        base_page.go_to_site(urls.scooter_url)
+        main_page.go_to_site(urls.scooter_url)
         main_page.scroll_page_to_questions_section()
         main_page.check_question_four_answer()
 
@@ -56,9 +51,8 @@ class TestMainPage:
                         "На главной странице 'Самоката' ищем блок 'Вопросы о важном' и нажимаем на вопрос.")
     def test_question_five_answer(self, driver):
         main_page = MainPage(driver)
-        base_page = BasePage(driver)
 
-        base_page.go_to_site(urls.scooter_url)
+        main_page.go_to_site(urls.scooter_url)
         main_page.scroll_page_to_questions_section()
         main_page.check_question_five_answer()
 
@@ -67,9 +61,8 @@ class TestMainPage:
                         "На главной странице 'Самоката' ищем блок 'Вопросы о важном' и нажимаем на вопрос.")
     def test_question_six_answer(self, driver):
         main_page = MainPage(driver)
-        base_page = BasePage(driver)
 
-        base_page.go_to_site(urls.scooter_url)
+        main_page.go_to_site(urls.scooter_url)
         main_page.scroll_page_to_questions_section()
         main_page.check_question_six_answer()
 
@@ -78,9 +71,8 @@ class TestMainPage:
                         "На главной странице 'Самоката' ищем блок 'Вопросы о важном' и нажимаем на вопрос.")
     def test_question_seven_answer(self, driver):
         main_page = MainPage(driver)
-        base_page = BasePage(driver)
 
-        base_page.go_to_site(urls.scooter_url)
+        main_page.go_to_site(urls.scooter_url)
         main_page.scroll_page_to_questions_section()
         main_page.check_question_seven_answer()
 
@@ -89,8 +81,7 @@ class TestMainPage:
                         "На главной странице 'Самоката' ищем блок 'Вопросы о важном' и нажимаем на вопрос.")
     def test_question_eight_answer(self, driver):
         main_page = MainPage(driver)
-        base_page = BasePage(driver)
 
-        base_page.go_to_site(urls.scooter_url)
+        main_page.go_to_site(urls.scooter_url)
         main_page.scroll_page_to_questions_section()
         main_page.check_question_eight_answer()
